@@ -2,8 +2,7 @@ const states = document.querySelectorAll('.state');
 const mainHeading = document.querySelector('.main-heading');
 mainHeading.textContent = "Know India";
 mainHeading.style.color = "#000";
-const geoNamesUrl = 'http://api.geonames.org/searchJSON';
-const username = 'riddhi379';
+
 const info = document.querySelector('.info');
 
 const card = document.querySelector('.map');
@@ -62,7 +61,7 @@ states.forEach(state => {
 back.addEventListener("click",goBack);
 function goBack() {
     console.log("back");
-    window.location.href = "http://127.0.0.1:3000/index.html";
+    window.location.href = "https://riddhi-gadgi.github.io/Know-India/";
 }
 
 
